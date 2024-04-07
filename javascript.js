@@ -12,7 +12,7 @@ lightbulbSwitch.addEventListener('click', function() {
     
     else {
         isLightbulbOn = true;
-        lightbulbImg.src='on.png';
+        lightbulbImg.src='off.png';
     }
     console.log(isLightbulbOn)
 })
